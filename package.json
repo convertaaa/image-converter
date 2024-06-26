@@ -3,11 +3,15 @@
   "version": "0.0.2",
   "description": "convert images",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js"
   },
   "author": "Shukaaa",
   "license": "ISC",
   "dependencies": {
     "@converta/api": "^0.0.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "typescript": "^5.5.2"
   }
 }
