@@ -1,0 +1,13 @@
+{
+  "name": "converta-image-converter",
+  "version": "0.0.2",
+  "description": "convert images",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@converta/api": "^0.0.4"
+  }
+}
