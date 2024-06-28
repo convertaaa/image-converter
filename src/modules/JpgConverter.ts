@@ -1,16 +1,16 @@
 import {Converter} from "@converta/api";
 
-export class PngConverter implements Converter {
+export class JpgConverter implements Converter {
 	convert(filePath: string, outputPath: string): Promise<void> {
 		// Convert the file
 		return Promise.resolve();
 	}
 	
 	get allowedExtensions(): string[] {
-		return ['jpeg', 'jpg'];
+		return ['png'];
 	}
 	
 	get returnableExtension(): string {
-		return 'png';
+		return 'jpg';
 	}
 }
