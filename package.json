@@ -8,7 +8,8 @@
   "author": "Shukaaa",
   "license": "ISC",
   "dependencies": {
-    "@converta/api": "^0.0.9"
+    "@converta/api": "^0.0.9",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "esbuild": "^0.21.5",
