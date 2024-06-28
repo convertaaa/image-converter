@@ -6,3 +6,5 @@ export class ConverterRegistry implements ConverterRegister {
 		return [new PngConverter()];
 	}
 }
+
+export default {ConverterRegistry};
